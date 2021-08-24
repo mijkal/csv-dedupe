@@ -1,0 +1,22 @@
+{
+  "name": "csv-dedupe",
+  "description": "Detect and remove duplicate rows in CSV",
+  "author": "Michael Gifford-Santos",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": [
+    "csv"
+  ],
+  "main": "index.js",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.0",
+    "prettier": "2.3.2"
+  },
+  "dependencies": {},
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "./node_modules/mocha/bin/mocha",
+    "watch": "./node_modules/mocha/bin/mocha -w"
+  }
+}
