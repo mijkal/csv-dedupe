@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-// const csvtojson = require('csvtojson');
 
 exports.getUserInputFromCli = (label) => {
     readline = require('readline').createInterface({

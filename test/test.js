@@ -1,6 +1,5 @@
 const Mocha = require('mocha');
 const assert = require('assert');
-// const mocha = new Mocha();
 const { cliApp, MODE_ENUMS } = require('../index.js');
 
 const MOCK_CSV_DATA_FILE = 'mockData.csv';
